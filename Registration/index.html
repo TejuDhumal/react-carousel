@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>itsa-login-signup</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name" required />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-user-graduate"></i>
+                    <input type="text" placeholder="Enrollment Number"
+                        oninput="this.value = this.value.toUpperCase()" />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="id_password-signup" autocomplete="current-password"
+                        placeholder="Password" required minlength="8" maxlength="500"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                        title="Minimum eight characters, at least one letter, one number and one special character" />
+                    <i class="far fa-eye" id="togglePassword-signup"
+                        style="margin-left: -30px; padding-right: 8px; cursor: pointer;"></i>
+                </div>
+
+                <button>Sign Up</button>
+                <p class="account-text">Already have an account? <a href="#signin" id="sign-in-btn2">Sign in</a></p>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required />
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="id_password-signin" autocomplete="current-password"
+                        placeholder="Password" required minlength="8" maxlength="500"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                        title="Minimum eight characters, at least one letter, one number and one special character" />
+                    <i class="far fa-eye" id="togglePassword-signin"
+                        style="margin-left: -30px; padding-right: 8px; cursor: pointer;"></i>
+                </div>
+                <a href="#resetpass">Forgot your password?</a>
+                <button>Sign In</button>
+                <p class="account-text">Don't have an account? <a href="#signup" id="sign-up-btn2">Sign up</a></p>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <img src="signin.svg" alt="sign in img" class="image">
+                    <h1>Welcome Back!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nihil molestias odio velit.</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hi, Friend!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error nihil molestias odio velit.</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                    <img src="signup.svg" alt="sign up img" class="image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
