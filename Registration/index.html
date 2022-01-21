@@ -22,8 +22,13 @@
                 </div>
                 <div class="input-field">
                     <i class="fas fa-user-graduate"></i>
-                    <input type="text" placeholder="Enrollment Number"
-                        oninput="this.value = this.value.toUpperCase()" />
+                    <select name="badge" id="Badge" style="appearance: none; color:#666" 
+                     onclick="document.getElementById('Badge').style.color='#444';" required>
+                        <option value="none"  selected disabled hidden>Select Badge</option>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                        <option value="Alumni">Alumni</option>
+                    </select>
                 </div>
                 <div class="input-field">
                     <i class="fas fa-envelope"></i>
