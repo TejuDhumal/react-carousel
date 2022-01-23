@@ -9,6 +9,8 @@
     <meta name="keywords" content="geca, Government College of Engineering Aurangabad, Information Technology, IT Department, ITSA, Student Association, geca it,html css js websites" />
     <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
     <link  rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     
     <title>ITSA Website</title>
 </head>
@@ -75,33 +77,61 @@
                 <h1>Our Infrastructure</h1>
             </div>
 
-            <div class="infraslide">
-                <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
-                <div id="captioned-gallery">
-                    <figure class="slider">
-                        <figure>
-                            <img src="hobbiton-lake.jpg" alt>
-                            <figcaption>Hobbiton, New Zealand</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="wanaka-drowned-tree.jpg" alt>
-                            <figcaption>Wanaka, New Zealand</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="utah-peak.jpg" alt>
-                            <figcaption>Utah, United States</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="bryce-canyon-utah.jpg" alt>
-                            <figcaption>Bryce Canyon, Utah, United States</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="hobbiton-lake.jpg" alt>
-                            <figcaption>Hobbiton, New Zealand</figcaption>
-                        </figure>
-                    </figure>
+            <div class="container">
+                <div id="content-slider">
+                  <div id="slider">
+                    <div id="mask">
+                      <ul>
+                        <li id="first" class="firstanimation">
+                          <a href="#">
+                            <img src="http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/images/img_1.jpg" alt="Cougar" />
+                          </a>
+                          <div class="tooltip">
+                            <h1>Cougar</h1>
+                          </div>
+                        </li>
+            
+                        <li id="second" class="secondanimation">
+                          <a href="#">
+                            <img src="http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/images/img_2.jpg" alt="Lions" />
+                          </a>
+                          <div class="tooltip">
+                            <h1>Lions</h1>
+                          </div>
+                        </li>
+            
+                        <li id="third" class="thirdanimation">
+                          <a href="#">
+                            <img src="http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/images/img_3.jpg" alt="Snowalker" />
+                          </a>
+                          <div class="tooltip">
+                            <h1>Snowalker</h1>
+                          </div>
+                        </li>
+            
+                        <li id="fourth" class="fourthanimation">
+                          <a href="#">
+                            <img src="http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/images/img_4.jpg" alt="Howling" />
+                          </a>
+                          <div class="tooltip">
+                            <h1>Howling</h1>
+                          </div>
+                        </li>
+            
+                        <li id="fifth" class="fifthanimation">
+                          <a href="#">
+                            <img src="http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/images/img_5.jpg" alt="Sunbathing" />
+                          </a>
+                          <div class="tooltip">
+                            <h1>Sunbathing</h1>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="progress-bar"></div>
+                  </div>
                 </div>
-            </div>
+              </div>
 
             <div>
                 <h1>Our Vision</h1>
@@ -115,7 +145,6 @@
     </section>
     <div class="fancy">
             <div class="context">
-                <br/><br/>
                 
             </div>
             
@@ -134,7 +163,108 @@
                 </ul>
             </div >
     </div>
+    <div class="test">
+        <div>
+            <h1>Our testimonials</h1>
+        </div>
+        <div class="slider">
+            <input type="radio" name="testimonial" id="t-1">
+            <input type="radio" name="testimonial" id="t-2">
+            <input type="radio" name="testimonial" id="t-3" checked>
+            <input type="radio" name="testimonial" id="t-4">
+            <input type="radio" name="testimonial" id="t-5">
+            <div class="testimonials">
+                <label class="item" for="t-1">
+                    <img src="https://dummyimage.com/150" alt="picture">
+                    <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                    <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-2">
+                    <img src="https://dummyimage.com/150" alt="picture">
+                    <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                    <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-3">
+                    <img src="https://dummyimage.com/150" alt="picture">
+                    <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                    <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-4">
+                    <img src="https://dummyimage.com/150" alt="picture">
+                    <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                    <h2>- Princy, Web Developer</h2>
+                </label>
+                <label class="item" for="t-5">
+                    <img src="https://dummyimage.com/150" alt="picture">
+                    <p>"Raw denim you probably haven't heard of them jean short austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse."</p>
+                    <h2>- Princy, Web Developer</h2>
+                </label>
+            </div>
+            <div class="dots">
+                <label for="t-1"></label>
+                <label for="t-2"></label>
+                <label for="t-3"></label>
+                <label for="t-4"></label>
+                <label for="t-5"></label>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <nav class="footer-inner">
+          <section class="footer-item">
+            <h1>ITSA</h1>
+            
+            <h2>We create possibilities <br>for the connected world.<br><b class="color">Be Bold.</b></h2>
+          </section>
+              
+          <section class="footer-item">
+            <h3>Explore</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+          </section>
+                
+          <section class="footer-item">
+            <h3>Visit</h3>
+              <a href="#">
+              <p>Bhanudas Sabhahgrah Railway Station Rd,</p>
+              <p>Rachanakar Colony, New Usmanpura,</p>
+              <p>Aurangabad, Maharashtra 431005</p>
+              </a>
+                  
+            <h3 class="desktop">Contact us at</h3>
+              <p class="desktop"><a href="#">itsa@geca.ac.in</a></p>
+              <p class="desktop"><a href="#">949.333.3106</a></p>
+          </section>
+                  
+              
+          <section class="footer-item">
+            <h3>Follow</h3>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+          </section>
+              
+          <section class="footer-item">
+            <h3>Legal</h3>
+              <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+          </section>
+                  
+          <section class="footer-item">
+              <a href="#" class="footer-button">Next: About</a>
+          </section>
+        </nav>
+      </footer>
 
-    <script src="script/script.js"></script>
+    <script type="text/javascript">
+       
+    </script>
 </body>
 </html>
