@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+	margin:0;
+	padding:0;
+	font-family: arial;
+	box-sizing: border-box;
+}
+
+body {
+	
+	display: grid;
+	
+	
+	height: 100vh;
+	margin: -20px 0 50px;
+
+	
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.container{
+	position: relative;
+	background-image: url("https://wallpapercave.com/wp/ew0V5jf.jpg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	
+}
+
+.Main{
+	height: 100%;
+	width: 100%;
+	position: absolute; 
+	filter: none;
+}
+.form-box{
+	width: 400px;
+	height: 370px;
+	position: absolute;
+   background: #fff;
+	padding: 5px;
+	overflow: hidden;
+
+     margin-right: 30px;
+	 box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.5);
+    float: right;
+	top: 40%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	filter: none;
+	border-radius: 30px;
+}
+
+
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.input-group{
+	top: 80px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	align-content: center;
+}
+.input-field{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+	align-content: center;
+	margin-left: 25%;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 10%;
+	margin-left: 25%;
+	background: linear-gradient(to bottom, #33ccff 0%, #66ff33 100%);
+	border:0;
+	outline: none;
+	align-content: center;
+	border-radius: 30px;
+	
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+span{
+	color: #777;
+	font-size: 12px;
+	bottom: 68px;
+	position: absolute; 
+}
+#login{
+	left: 50px;
+}
+#register{
+	left: 450px;
+}
+#uploadbtn{
+	width: 300px;
+}
+	h1 {
+		font-weight: bold;
+	 margin-top: 100px ;
+		text-align: center;
+color:white;
+font-size: 250%;
+	}
+	
+
+table{
+	float: left;
+	width: 500px;
+	height: 400px;
+	align-content: left;
+	box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.5);
+position: absolute;
+padding-left: 10px;
+align-content: center;
+left: 10%;
+top: 30%;
+filter: none;
+
+border-radius: 30px;
+}
+.container2{
+	cursor: pointer;
+}
+table,td{
+	padding: 20px;
+	cursor: pointer;
+}
+td{
+	font-size: 18px;
+}
+
+tr:nth-child(odd){
+	background-color: lightblue;
+}
+tr:nth-child(even){
+	background-color: white;
+}
+
